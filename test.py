@@ -25,7 +25,7 @@ class TestRemainder(unittest.TestCase):
                 else:
                     result = remainder(dividend, divisor)
                     self.assertEqual(result, expected)
-                    print(f"Тест деления {dividend} на {divisor} прошел успешно: результат = {result}")
+                    print(f"Тест деления {dividend} на {divisor} прошел успешно: остаток от деления -  {result}")
 
     def test_error_case(self):
         with self.assertRaises(ValueError):
